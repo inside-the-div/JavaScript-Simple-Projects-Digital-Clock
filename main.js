@@ -6,9 +6,9 @@ var outputHour = document.getElementById("outputHour");
 var outputMin = document.getElementById("outputMin");
 var outputSec = document.getElementById("outputSec");
 
-outputHour.innerHTML = FormatTime(currentHour);
-outputMin.innerHTML = FormatTime(currentMin);
-outputSec.innerHTML = FormatTime(currentSec);  
+outputHour.innerHTML = FormatTime(currentHour) + '<small>h</small>';;
+outputMin.innerHTML = FormatTime(currentMin) + '<small>m</small>';;
+outputSec.innerHTML = FormatTime(currentSec) + '<small>s</small>';  
 
 var countId = setInterval(myClock,1000);
 function myClock()
@@ -23,14 +23,14 @@ function myClock()
             currentMin = 0;
             currentHour++;
         }
-        outputMin.innerHTML = FormatTime(currentMin);
+        outputMin.innerHTML = FormatTime(currentMin) + '<small>m</small>';
     } 
-    outputSec.innerHTML = FormatTime(currentSec);
+    outputSec.innerHTML = FormatTime(currentSec) + '<small>s</small>'
     if(currentHour == 24)
     {
         currentHour = 0;
     }
-    outputHour.innerHTML = FormatTime(currentHour);
+    outputHour.innerHTML = FormatTime(currentHour) + '<small>h</small>';
 }
 
 function FormatTime(time)

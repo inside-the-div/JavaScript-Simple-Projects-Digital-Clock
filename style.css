@@ -6,6 +6,7 @@
 body{
     height: 100vh;
     width: 100%;
+    background-color: #e2e2e2;
 }
 .watch-container{
     width: 100%;
@@ -21,6 +22,7 @@ body{
     font-size: 40px;
     transform: scale(1.5);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: #fff;
 }
 .watch-container p span{
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
@@ -31,4 +33,8 @@ body{
 .project-heading h1{
     text-transform: capitalize;
     font-size: 30px;
+}
+
+small{
+    color: #b8b8b8;
 }
