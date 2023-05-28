@@ -16,7 +16,7 @@
     <li><a target="_blank" href="https://insidethediv.com/javascript-simple-projects-with-source-code-bmi-calculator">javascript Projects BMI Calculator</a></li>
     <li><a target="_blank" href="https://insidethediv.com/javascript-simple-projects-online-digital-clock-with-seconds">javascript Projects Digital Clock</a></li>
     <li><a target="_blank" href="https://insidethediv.com/javascript-simple-projects-beginners-online-stopwatch-full-screen">javascript Projects StopWatch</a></li>
-    <li><a target="_blank" href="https://insidethediv.com/javascript-simple-projects-with-source-code-online-timer-app">javascript Projects Timer</a></li>
+    <li><a target="_blank" href="https://insidethediv.com/javascript-projects-for-beginners-with-source-code-online-timer-app">javascript Projects Timer</a></li>
 </ul>
 
 <h2>Special Thanks To...</h2>
